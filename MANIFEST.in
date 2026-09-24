@@ -1,5 +1,4 @@
-include README.rst
+include README.md
 include LICENSE
-include VERSION
-recursive-include tests *.py
 recursive-include django_social_share/templates *
+recursive-include django_social_share/tests *.py

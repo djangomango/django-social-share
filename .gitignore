@@ -1,19 +1,11 @@
-*.egg-info
-*.pot
-*.py[co]
-*.out
-.eggs
-.cache
-.coverage
-parsetab.py
-__pycache__
-MANIFEST
+*.py[cod]
+__pycache__/
+*.egg-info/
 dist/
-docs/_build/
-docs/locale/
-node_modules/
-tests/coverage_html/
-tests/.coverage
 build/
-tests/report/
 .idea
+venv/
+
+# Local developer tools and private runners
+local/
+scripts/local/
